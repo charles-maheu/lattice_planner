@@ -39,7 +39,7 @@
 
 #include <ros/ros.h>
 #include <costmap_2d/costmap_2d_ros.h>
-#include <pluginlib/class_loader.h>
+#include <pluginlib/class_loader.hpp>
 #include <lattice_planner/dynamic_layers.h>
 
 namespace lattice_planner
